@@ -28,22 +28,16 @@ const OverlaySettings = () => {
       <OptionGrid container>
         <Grid item {...slotSizes.single}>
           <Typography>
-            Overlays provide a convenient second screen for projectors,
-            live streaming broadcasts, and vision impaired monitors.
-          </Typography>
-          <br />
-          <Typography>
-            When a line is activated in the controller and seen on the presenter,
-            the same information is used to generate the overlay.
-            Choose what to display and how to display it with the options below.
-            For added customization, create an overlay with the theme tool.
+            Use overlays to set up captions for popular live stream software, such as OBS, Wirecast,
+            and vMix. Or use them in full screened web browsers as an alternate presentation to the
+            main display. It is also possible to create overlay themes using the theme tool.
           </Typography>
         </Grid>
       </OptionGrid>
 
       <OptionGrid container align="center">
         <Grid item {...slotSizes.single} className="buttons">
-          <TutorialButton className="tutorial-button" href="https://tutorials.shabados.com/tutorials/1.0.0/overlay/overlay.html">
+          <TutorialButton className="tutorial-button" href="https://docs.shabados.com/presenter/guides/configuring-live-stream-captions">
             Learn More
           </TutorialButton>
         </Grid>
